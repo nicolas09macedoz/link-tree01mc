@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color: var(--black);
+    background: linear-gradient(135deg, #000000, #444444);
     height: 100svh;
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@ h1 {
 
 strong {
     font-size: 14px;
-    color: var(--neon-green);
+    color: rgb(255, 255, 255);
     line-height: 150%;
 }
 
@@ -64,7 +64,7 @@ p {
 
 a {
     display: block;
-    color: var(--white);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     background-color: var(--grey);
     margin-bottom: 16px;
@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-    background-color: var(--neon-green);
+    background-color: rgb(255, 255, 255);
     color: var(--grey);
     transition: 0.6s;
 }
